@@ -1,59 +1,73 @@
-# Olá, Sou iníciante quero aprender!
+# Olá Esse é meu prrimeiro project
 
-<!-- ![](https://github.com/BetoFerrari2025/projetoteste/actions/workflows/0-start-exercise.yml/badge.svg) -->
-![](https://github.com/BetoFerrari2025/projetoteste/actions/workflows/1-create-a-branch.yml/badge.svg)
-![](https://github.com/BetoFerrari2025/projetoteste/actions/workflows/2-commit-a-file.yml/badge.svg)
-![](https://github.com/BetoFerrari2025/projetoteste/actions/workflows/3-open-a-pull-request.yml/badge.svg)
-![](https://github.com/BetoFerrari2025/projetoteste/actions/workflows/4-merge-your-pull-request.yml/badge.svg)
+## Project info
 
-_Get started using GitHub in less than an hour._
+**URL**: https://lovable.dev/projects/a1b8ba04-e70f-44c5-bbeb-8390c31495dc
 
-## Welcome
+## How can I edit this code?
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+There are several ways of editing your application.
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+**Use Lovable**
 
-In this exercise, you will:
+Simply visit the [Lovable Project](https://lovable.dev/projects/a1b8ba04-e70f-44c5-bbeb-8390c31495dc) and start prompting.
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+Changes made via Lovable will be committed automatically to this repo.
 
-### How to start this exercise
+**Use your preferred IDE**
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/BetoFerrari2025/projetoteste/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+Follow these steps:
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-   <a id="start-exercise" href="https://github.com/BetoFerrari2025/projetoteste/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
+# Step 3: Install the necessary dependencies.
+npm i
 
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
----
+**Edit a file directly in GitHub**
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/a1b8ba04-e70f-44c5-bbeb-8390c31495dc) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes it is!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
