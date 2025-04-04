@@ -1,4 +1,4 @@
-# Olá Esse é meu prrimeiro project
+# Olá Esse é meu primeiro project
 
 ## Project info
 
